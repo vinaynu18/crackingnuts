@@ -2,9 +2,9 @@ package com.source.ctcigayle.IsUnique;
 
 import java.util.Arrays;
 
-public class IsUnique_NoSpace {
+public class IsUnique_NoSpace_UseSort {
 
-    public IsUnique_NoSpace() {
+    public IsUnique_NoSpace_UseSort() {
     }
 
     public static void main(String[] args) {
