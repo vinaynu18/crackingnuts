@@ -8,8 +8,14 @@ public class IsUnique_NoSpace_UseSort {
     }
 
     public static void main(String[] args) {
-        boolean isUnique = checkIfUnique("abcde");
-        System.out.println("isUnique : " + isUnique);
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique("abcde"));
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique(""));
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique("   "));
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique("abcade"));
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique("aaaaaa"));
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique("cat%^*"));
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique("catistrong"));
+        System.out.println(IsUnique_NoSpace_UseSort.checkIfUnique("catis_strong"));
     }
     public static boolean checkIfUnique(String str) {
 
