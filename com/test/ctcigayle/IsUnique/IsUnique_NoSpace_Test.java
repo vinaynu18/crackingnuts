@@ -10,10 +10,10 @@ public class IsUnique_NoSpace_Test {
 
     @Test
     public void multiplicationOfZeroIntegersShouldReturnZero() {
-        IsUnique_NoSpace tester = new IsUnique_NoSpace();
 
         assertEquals(true, IsUnique_NoSpace.checkIfUnique("abcde"));
         assertEquals(true, IsUnique_NoSpace.checkIfUnique(""));
+        assertEquals(false, IsUnique_NoSpace.checkIfUnique("   "));
         assertEquals(false, IsUnique_NoSpace.checkIfUnique("abcade"));
         assertEquals(false, IsUnique_NoSpace.checkIfUnique("aaaaaa"));
         assertEquals(true, IsUnique_NoSpace.checkIfUnique("cat%^*"));

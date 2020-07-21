@@ -9,10 +9,10 @@ public class IsUnique_UsingHashMap_Test {
 
     @Test
     public void multiplicationOfZeroIntegersShouldReturnZero() {
-        IsUnique_UsingHashMap tester = new IsUnique_UsingHashMap();
 
         assertEquals(true, IsUnique_UsingHashMap.checkIfUnique("abcde"));
         assertEquals(true, IsUnique_UsingHashMap.checkIfUnique(""));
+        assertEquals(false, IsUnique_UsingHashMap.checkIfUnique("   "));
         assertEquals(false, IsUnique_UsingHashMap.checkIfUnique("abcade"));
         assertEquals(false, IsUnique_UsingHashMap.checkIfUnique("aaaaaa"));
         assertEquals(true, IsUnique_UsingHashMap.checkIfUnique("cat%^*"));
