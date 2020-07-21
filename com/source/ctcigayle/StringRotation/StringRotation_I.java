@@ -1,5 +1,7 @@
 package com.source.ctcigayle.StringRotation;
 
+import java.util.HashMap;
+
 public class StringRotation_I {
 
     public static void main(String[] args) {
