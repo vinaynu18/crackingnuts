@@ -7,7 +7,12 @@ class SmallestSubstringContaining_II_Fastest {
 
     public static void main(String[] args) {
         System.out.println(SmallestSubstringContaining_II_Fastest.smallestSubstringContaining("abcdef","fa"));
+        System.out.println(SmallestSubstringContaining_II_Fastest.smallestSubstringContaining("abcd$ef$axb$c$","$$abf"));
+        System.out.println(SmallestSubstringContaining_II_Fastest.smallestSubstringContaining("abcdef","d"));
+        System.out.println(SmallestSubstringContaining_II_Fastest.smallestSubstringContaining("abcdefghijklmnopqrstuvwxyz","aajjttwwxxzz"));
     }
+    // time complexity is O(B+S) where B is the length of big string and S is the length of the small string
+    // space complexity is also the same O(B+S)
 
     public static String smallestSubstringContaining(String bigString, String smallString) {
 
