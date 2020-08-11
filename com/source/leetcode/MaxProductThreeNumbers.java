@@ -36,5 +36,7 @@ public class MaxProductThreeNumbers {
 
     public static void main(String[] args) {
         System.out.println((new MaxProductThreeNumbers()).maximumProduct(new int[]{1,1,-4,3,3,6,3,9}));
+        System.out.println((new MaxProductThreeNumbers()).maximumProduct(new int[]{-2,1,-1,-1,-1}));
+        System.out.println((new MaxProductThreeNumbers()).maximumProduct(new int[]{-1,1,-4,3,-3,6,3,9}));
     }
 }
