@@ -1,0 +1,16 @@
+import java.util.*;
+
+class Program {
+  public static int[] twoNumberSum(int[] array, int targetSum) {
+    // Write your code here.
+		HashMap<Integer, Boolean> nums = new HashMap<Integer, Boolean> ();
+		for(int i: array){
+			int potentialMatch = targetSum - i;
+			if(nums.get(potentialMatch) != null)
+				return new int[]{i, potentialMatch};
+			else
+				nums.put(i, true);
+		}
+    return new int[0];
+  }
+}
