@@ -60,7 +60,7 @@ public class MergeSortedArray {
 //
 //        import static org.junit.Assert.*;
 //
-//public class Solution {
+//public class AppleStocks {
 //
 //    public static int[] mergeArrays(int[] myArray, int[] alicesArray) {
 //
@@ -167,7 +167,7 @@ public class MergeSortedArray {
 //    }
 //
 //    public static void main(String[] args) {
-//        Result result = JUnitCore.runClasses(Solution.class);
+//        Result result = JUnitCore.runClasses(AppleStocks.class);
 //        for (Failure failure : result.getFailures()) {
 //            System.out.println(failure.toString());
 //        }
