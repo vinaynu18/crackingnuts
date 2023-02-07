@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Add Comment to Asana Task
       run: |
-        curl -X POST https://app.asana.com/api/1.0/tasks/1203924242984070/comments \
+        curl -X POST https://app.asana.com/api/1.0/tasks/1203924242984070/stories \
         -H "Authorization: Bearer 1/1199000149941292:38271509b013c7089be09bc0e2f4644c" \
         -H "Content-Type: application/json" \
         -d '{
