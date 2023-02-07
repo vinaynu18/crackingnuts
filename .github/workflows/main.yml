@@ -12,7 +12,7 @@ jobs:
         -H "Authorization: Bearer 1/1199000149941292:38271509b013c7089be09bc0e2f4644c" \
         -H "Content-Type: application/json" \
         -d '{
-          \"data\": {
-            \"text\": \"$message\"
+          "data": {
+            "text": "$(message)"
           }
         }'
