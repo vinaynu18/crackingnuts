@@ -1,4 +1,5 @@
-uses: apgapg/github-asana-action@--latest--
+name: Asana Git
+  uses: insurify/github-asana-action@v1.0.5
 with:
   asana-token: '1/1199000149941292:38271509b013c7089be09bc0e2f4644c'
   targets_commit_push: '[{"project": "Backlog", "section": "Done"}]'
