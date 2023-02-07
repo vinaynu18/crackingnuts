@@ -1,1 +1,3 @@
 # crackingnuts
+
+updatedthe read me
