@@ -1,0 +1,17 @@
+name: Read Commit Message
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  read_commit_message:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Read Commit Message
+      run: |
+        echo "Reading commit message from GITHUB_EVENT_PATH"
+        message=$(jq -r '.head_commit.message' $GITHUB_EVENT_PATH)
+        echo "Commit message: $message"
