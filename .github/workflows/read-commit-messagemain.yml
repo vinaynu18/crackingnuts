@@ -1,9 +1,6 @@
 name: Read Commit Message
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   read_commit_message:
