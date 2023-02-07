@@ -13,6 +13,6 @@ jobs:
         -H "Content-Type: application/json" \
         -d '{
           "data": {
-            "text": $message
+            "text": "Commit message: $message"
           }
         }'
