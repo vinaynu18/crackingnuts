@@ -11,8 +11,8 @@ jobs:
         curl -X POST https://app.asana.com/api/1.0/tasks/1203924242984070/stories \
         -H "Authorization: Bearer 1/1199000149941292:1444bd85820ee3bcf721212718e565a8" \
         -H "Content-Type: application/json" \
-        -d '{
-          "data": {
-            "text": "Some message with $message"
+        -d "{
+          \"data\": {
+            \"text\": \"Some message with $message\"
           }
-        }'
+        }"
