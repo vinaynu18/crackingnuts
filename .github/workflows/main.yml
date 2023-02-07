@@ -13,6 +13,6 @@ jobs:
         -H "Content-Type: application/json" \
         -d '{
           "data": {
-            "text": $(jq -r '.head_commit.message' $GITHUB_EVENT_PATH)
+            "text": "Some message with" + $message
           }
         }'
