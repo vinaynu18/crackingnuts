@@ -1,0 +1,4 @@
+uses: apgapg/github-asana-action@--latest--
+with:
+  asana-token: 'Your PAT'
+  targets_commit_push: '[{"project": "Crack FANTA", "section": "Development Done"}
